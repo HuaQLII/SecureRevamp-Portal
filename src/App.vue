@@ -1,11 +1,13 @@
 <template>
   <div>
-    <svg-icon name="vue"></svg-icon>
+    <svg-icon name="favicon" ></svg-icon>
+  </div>
+  <div>
+    <Pagination></Pagination>
   </div>
 </template>
 
 <script setup lang="ts">
-import SvgIcon from '@/components/SvgIcon/index.vue'
 </script>
 
 <style scoped>
